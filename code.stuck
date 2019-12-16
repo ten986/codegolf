@@ -1,0 +1,26 @@
+([(a+'\n')*(1+len(b))+c.rstrip().ljust(a.find('T')+1,'*')for a,*b,c,d in[STDIN]][0])
+
+.........i.........
+........ReD........
+.......D"T"s.......
+......S@"k]]"......
+....."n[stac"+.....
+...."*b,a,x i"+....
+..."')for d,c,"+...
+..").ljust(x,'*"+..
+."n(b)+c.rstrip("+.
+"[(a+'\n')*le"+  Ee
+[(a+'\n')*len(b)+c.rstrip().ljust(x,'*')for d,c,*b,a,x in[stack]]
+ /usr/bin/apl -s -f /volume/CODE --                       T
+
+
+
+
+
+
+
+
+
+  K
+
+

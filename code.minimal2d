@@ -1,0 +1,42 @@
+>+++gv
+    r(
+     >
+
+R>>>/D>>R/D<<,R>+>+D
+U .+,L  U-LD  U/-<<L
+U       <<L
+D----    > L
+R/D>.R  /DUL
+-.   U<<<L .
+ >R--/D<+>>UL
+U><  LR--/D>U
+DU/L<U/  -L
+>
+>
++
+R.>U
+
+
+data pointer -> Beam
+
+read input to
+
+a=read a
+i=0
+j=0
+d='T'
+when c is d {
+j=0
+}
+when j is 51{
+write "A"
+j=j+1
+}
+when x is 0 {
+c=a[i]
+write a[i]
+i=i+1
+j=(j+1)%51
+x=0
+}
+x=0

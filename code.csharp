@@ -1,0 +1,16 @@
+using S=System.Console;class A{static var R=>S.ReadLine();static void Main(){for(int h=r,w=r,y=h;;)S.Write("*"+"*\n".PadLeft(w,"* "[y%h/y%y--]));}}
+
+using S=System.Console;class A{static void Main(){for(int d=1,c;(c=S.Read())>0;d=c>83?1:(d-c%2*51+1)%51)S.Write((char)(d<1?35:c));}}
+using S=System.Console;class A{static void Main(){for(int d=1,c;(c=S.Read())>0;d=c>83?1:(d-c%2*51+1)%51)S.Write(d<1?'#':(char)c);}}
+using S=System.Console;class A{static void Main(){for(string c;(c=S.ReadLine())!=null;)S.WriteLine(c);}}
+
+
+using C=System.Console;class I{static void Main(){for(int c,x=0;(c=C.Read())>0;C.Write(x<1?'#':(char)c))x=c>83?0:-~x%51-c%2*51;}}
+using S=System.Console;class A{static void Main(){for(int d=1,c;;S.Write("#\n "[d<1?0:c%3]),d=c>83?1:++d%51-c%2*51)c=S.Read();}}
+
+
+using S=System.Console;class A{static void Main(){for(int d=1,c;(c=S.Read())>0;d=c>83?1:(d-c%2*51+1)%51)S.Write(d<1?'#':(char)c);}}
+using S=System.Console;class A{static void Main(){for(int d=1,c;(c=S.Read())>0;d=c>83?1:++d%51-c%2*51)S.Write(d<1?'#':(char)c);}}
+using S=System.Console;class A{static void Main(){for(int d=1,c;(c=S.Read())>0;d=c>83?1:++d%51-c%2*51)S.Write("#\n "[d<1?0:c%3]);}}
+using S=System.Console;class A{static void Main(){for(int d=1,c;;d=c>83?1:++d%51-c%2*51){c=S.Read();S.Write("#\n "[d<1?0:c%3]);}}}
+using S=System.Console;class A{static void Main(){for(int d=1,c;;S.Write("#\n "[d<1?0:c%3]),d=c>83?1:++d%51-c%2*51)c=S.Read();}}

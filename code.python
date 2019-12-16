@@ -1,0 +1,20 @@
+a,*b=open(0)
+print(a*len(b)+(b[-1].rstrip().ljust(99))[:a.find("T")+1])
+
+*a,b=open(0)
+b="\n"+b
+print((b.zfill(99))[:a[0].find("T")+1]+b*len(a))
+
+a,*b=open(0)
+print(a*len(b)+(b[-1].rstrip()+"*"*99)[:a.find("T")+1])
+
+a,*b,c=open(0)
+print(a+a*len(b)+c.rstrip().ljust(a.find("T")+1,"*"))
+
+                      T
+                      T
+                      T
+                      T
+                      T
+                      T
+  K0.3333333333333333
